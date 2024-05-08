@@ -1,0 +1,53 @@
+.agreePageArea {
+    background-color: rgb(47, 52, 58);
+    padding: 40px 20px;
+}
+
+.agreePageContent {
+    margin: 0 auto;
+    max-width: 1125px;
+}
+
+.topicBox {
+    display: inline-block;
+}
+
+.divider {
+    width: calc(100% + 10px);
+    margin: 10px 0 20px;
+}
+
+.topic {
+    font-size: 22px;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.middleTopic {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.backBtn {
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    background-color: #c8a35f;
+    color: white;
+    transition-duration: .3s;
+
+    &:hover {
+        background-color: #a58b57;
+    }
+}

@@ -1,0 +1,248 @@
+.mainSection {
+    background-color: rgb(47, 52, 58);
+}
+
+.trucksAndText {
+    background-image: url('/public/images/Trucks.png');
+    background-size: cover;
+    background-position: center;
+    padding: 145px 20px 128px;
+}
+
+.textBox {
+    margin: 0 auto;
+    max-width: 740px;
+    border: 5px solid rgb(200, 163, 95);
+    color: white;
+    padding: 0 57px;
+
+    h2 {
+        padding: 39px 0 11px;
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+.someInfAtMain {
+    max-width: 1125px;
+    box-sizing: content-box;
+    margin: 39px auto 0;
+    padding: 0 20px;
+}
+
+.servTopic {
+    padding: 40px 0;
+}
+
+.servicesBox {
+    display: flex;
+    column-gap: 8px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+        max-width: 219px;
+        max-height: 64px;
+    }
+}
+
+.serviceBtn {
+    cursor: pointer;
+
+    div {
+        height: 120px;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        padding: 8px 0 35px;
+        text-align: center;
+        background-color: rgb(57, 63, 71);
+        color: white;
+        transition-duration: 0.4s;
+    }
+}
+
+.serviceBtn:hover p {
+    background-color: rgb(200, 163, 95);
+}
+
+.aboutCompanyBlock {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    justify-content: space-between;
+
+    .mainInfAbout {
+        position: relative;
+        z-index: 2;
+    }
+
+    .aboutTopic {
+        padding: 40px 0;
+    }
+
+    .aboutText {
+        color: white;
+        max-width: 355px;
+        font-weight: 400;
+    }
+
+    .greyArea {
+        position: absolute;
+        width: 416px;
+        height: 482px;
+        background-color: rgb(57, 63, 71);
+        top: -80px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+
+    .cubesInf {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 620px;
+        gap: 2px;
+
+        div {
+            width: 203px;
+            height: 160px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .infCube {
+        background-color: white;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 25px;
+
+        span {
+            display: inline-block;
+            font-size: 12px;
+            width: 100%;
+            font-weight: 500;
+        }
+
+        .number {
+            font-size: 64px;
+            font-weight: 700;
+            text-align: center;
+            margin: 23px 0 0;
+        }
+    }
+}
+
+.conactDivider {
+    width: 100%;
+}
+
+.contactTopic {
+    text-align: center;
+    padding: 22px 0;
+}
+
+.contactInf {
+    margin: 0 auto;
+    padding: 50px 20px;
+    max-width: 1125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contactText {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.mesBox {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.text {
+    width: 35%;
+    min-width: 304px;
+
+}
+
+.map {
+    flex: 1;
+    width: 60%;
+
+    iframe {
+        display: block;
+        width: 100%;
+        min-width: 400px;
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 957px) {
+    .contactInf {
+        justify-content: center;
+    }
+
+    .map {
+        flex: 0;
+    }
+}
+
+@media all and (max-width: 928px) {
+    .aboutCompanyBlock {
+        padding-bottom: 70px;
+    }
+}
+
+@media all and (max-width: 804px) {
+    .map {
+        flex: 1;
+        padding: 0 40px;
+    }
+
+    .contactText {
+        text-align: center;
+    }
+
+    .mesBox {
+        justify-content: center;
+    }
+}

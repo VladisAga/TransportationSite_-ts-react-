@@ -1,0 +1,48 @@
+.text {
+    font-size: 21px;
+    text-align: justify;
+    color: white;
+    line-height: 1.4;
+
+    span {
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+}
+
+.middleTopic {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+
+.ul {
+    list-style-type: none;
+    color: white;
+    font-size: 21px;
+}
+
+.ul li::before {
+    content: '\2022';
+    display: inline-block;
+    padding: 0 10px 0 15px;
+}
+
+.secondUl {
+    list-style-type: none;
+}
+
+.ul .secondUl li::before {
+    content: '-';
+    padding: 0 10px 0 50px;
+}
+
+.topic {
+    margin-top: 30px;
+}
+
+.divider {
+    margin: 10px 0 30px;
+    width: 313px;
+}

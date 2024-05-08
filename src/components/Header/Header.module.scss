@@ -1,0 +1,100 @@
+.header {
+    background-color: rgb(47, 52, 58);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 10px 0;
+
+    .css-4xgw5l-IndicatorsContainer2 {
+        display: none;
+    }
+
+    select {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 72px;
+    }
+
+    select::-ms-expand {
+        display: none;
+    }
+}
+
+.headContent {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+
+    nav {
+        width: 640px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            li {
+                list-style-type: none;
+
+                button {
+                    height: 100%;
+                    font-size: 18px;
+                    font-weight: 500;
+                    border: 1px solid rgb(200, 163, 95);
+                    color: white;
+                    padding: 3px;
+                    background-color: rgb(200, 163, 95);
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: 500;
+                    transition-duration: .3s;
+
+                    &:hover {
+                        color: rgb(200, 163, 95);
+                    }
+                }
+            }
+        }
+    }
+
+    .active {
+        color: rgb(200, 163, 95);
+    }
+}
+
+.logoBox {
+    max-width: 242px;
+    min-width: 140px;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .headContent {
+        nav {
+            ul {
+                justify-content: flex-end;
+            }
+        }
+    }
+}

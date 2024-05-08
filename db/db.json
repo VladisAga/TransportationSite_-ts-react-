@@ -1,0 +1,51 @@
+{
+  "orderCalls": [
+    {
+      "id": "77cd",
+      "usernameorder": "greger",
+      "phoneToOrder": "+375 29 194-84-50"
+    },
+    {
+      "id": "10e9",
+      "usernameorder": "greger",
+      "phoneToOrder": "+375 29 194-84-50"
+    },
+    {
+      "id": "323c",
+      "usernameorder": "greger",
+      "phoneToOrder": "+375 29 194-84-50"
+    }
+  ],
+  "costRequests": [
+    {
+      "id": "7d79",
+      "username": "wew",
+      "email": "boss7551va@gmail.com",
+      "phoneToOrder": "9876",
+      "Input4": "ere",
+      "Input": "erwee",
+      "transport": "truck",
+      "DatePicker": "2024-05-07T21:00:00.000Z",
+      "DatePicker2": "2024-05-06T21:00:00.000Z",
+      "Input2": "88",
+      "Input3": "77",
+      "TextArea": "лбьо",
+      "radio-group": "true"
+    },
+    {
+      "id": "de29",
+      "username": "wew",
+      "email": "boss7551va@gmail.com",
+      "transport": "ship",
+      "phone": "4434434",
+      "from": "kjk8",
+      "to": "nmnmj",
+      "putTime": "2024-05-14T21:00:00.000Z",
+      "getTime": "2024-04-30T21:00:00.000Z",
+      "weight": "88",
+      "amount": "77",
+      "details": ",kmkjm,k",
+      "agreement": "true"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+.servicePageArea {
+    background-color: rgb(47, 52, 58);
+    padding: 40px 20px;
+    display: flex;
+    gap: 3rem;
+    position: relative;
+}
+
+.topic {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.divider {
+    width: 313px;
+    margin: 10px 0 30px;
+}
+
+.textArea {
+    max-width: 1114px;
+}
+
+.sideBar {
+    position: relative;
+    top: 10px;
+}
+
+.sideManageBar {
+    min-width: 261px;
+    border: 5px solid rgb(200, 163, 95);
+    background-color: rgb(200, 163, 95);
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: auto;
+    position: sticky;
+    top: 124px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.manageElem {
+    background-color: white;
+    padding: 13px 32px;
+    font-size: 13px;
+}
+
+.manageElem:hover {
+    color: white;
+    background-color: rgb(200, 163, 95);
+}
+
+.extraBtnBox {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(200, 163, 95, 0.8);
+    border-radius: 0 5px 5px 0;
+
+    button {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.activeManageElem {
+    font-weight: 900;
+    font-size: 13px;
+    background-color: rgb(241, 217, 162);}
+
+@media all and (max-width: 800px) {
+    .servicePageArea {
+        flex-direction: column;
+    }
+
+    .sideManageBar {
+        max-width: 221px;
+        min-width: 0;
+    }
+
+    .sideBar {
+        position: fixed;
+        display: flex;
+        top: 170px;    }
+
+    .active {
+        top: 0;
+        left: -300px;
+        position: absolute;
+    }
+}

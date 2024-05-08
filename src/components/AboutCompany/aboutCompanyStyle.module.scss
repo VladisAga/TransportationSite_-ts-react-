@@ -1,0 +1,42 @@
+.section {
+    color: white;
+}
+
+.topic {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ul {
+    padding: 5px 0 30px 37px;
+    list-style-type: disc;
+}
+
+.ol {
+    padding: 5px 0 0 26px;
+}
+
+.topicText {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 21px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.imgBox {
+    margin: 0 auto;
+    max-width: 460px;
+    padding-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.imgBox2 {
+    max-width: 353px;
+}

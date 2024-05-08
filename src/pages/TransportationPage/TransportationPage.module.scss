@@ -1,0 +1,41 @@
+.transportationPageArea {
+    background-color: rgb(47, 52, 58);
+    padding: 40px 20px;
+    display: flex;
+    gap: 3rem;
+    position: relative;
+}
+
+.divider {
+    width: calc(100% + 10px);
+    margin: 10px 0 30px;
+}
+
+.text {
+    color: white;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.infBox {
+    margin-bottom: 30px;
+
+    ul {
+        color: white;
+        font-size: 21px;
+        padding: 0 0 5px 40px;
+    }
+}
+
+.imgBox {
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+    img {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
